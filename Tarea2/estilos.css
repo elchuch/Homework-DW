@@ -1,0 +1,92 @@
+.nNombre{
+text-align: right;
+}
+.nCuenta{
+    text-align: right;
+}
+.headingOne{
+    text-align: center;
+    font-size: 50px;
+    color:dodgerblue;
+}
+.p1{
+    text-align: justify;
+}
+.LI{
+    font-size: 35px;
+}
+.l1{
+    color: brown;
+}
+.l2{
+    color:yellow;
+}
+.l3{
+    color:blue;
+}
+.l4{
+    color:burlywood;
+}
+.l5{
+    color:blue;
+
+}
+.l6{
+    color:green;
+}
+.l7{
+    color:yellow;
+}
+.l8{
+    color:red;
+
+}
+.l9{
+    color:pink;
+
+}
+.l10{
+    color:blueviolet;
+
+}
+.l11{
+    color:aqua;
+}
+.td1{
+    text-align:center;
+    font-size: 15px;
+}
+.table1{
+    border-color: black;
+    border-style: dotted;
+    border-width:2px;
+    font-size: 18px;
+}
+.amarillo{
+    color: yellow;
+}
+.negro{
+    color:black
+}
+.rojo{
+    color:red;
+
+}
+.verde{
+    color:green;
+}
+.azul{
+    color:blue;
+}
+.pre2{
+    font-size: 15px;
+}
+.span1{
+    color:palevioletred;
+}
+.pre3{
+    font-size: 15px;
+}
+.pre4{
+    font-size: 15px;
+}
