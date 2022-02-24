@@ -1,0 +1,30 @@
+/* colorres de  i stio web
+ primary: #383E56
+ secondary:#F69E7B
+ anterior:#EEDAD1
+ anterior1:#D4B5B0
+*/
+.tituloP{
+    color:#EEDAD1;
+
+}
+.text-secondary{
+    color:#F69E7B;
+}
+.bg-primary{
+   background-color:#383E56 ;
+}
+.bg-info{
+    background-color:#F69E7B;
+}  
+
+
+.text-center{
+   text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.width-100{
+   width: 100px;
+}
