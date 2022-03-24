@@ -1,0 +1,19 @@
+.image{
+    width: 350px;
+    height: 500px;
+    margin-top: 5%;
+
+}
+.body{
+  background:radial-gradient(#fdbb2d, #22c1c3);
+}
+.border-button{
+    text-align: center;
+    background-color: #fdbb2d;
+    border-radius: 20px 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center-buttom{
+    text-align: center;
+}
