@@ -1,0 +1,15 @@
+.vinculo{
+    color: tomato;
+}
+.vinculo:hover{
+    color: aqua;
+
+}
+.image{
+    background-image: url(img/Fes.Acatlan.png);
+    background-position: center center;
+    
+}
+.body{
+     background-color: rgb(238, 238, 225);
+}
