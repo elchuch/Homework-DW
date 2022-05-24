@@ -1,0 +1,16 @@
+:root{
+    --gray-blue:#C5DCDE ;
+    --buttom-color:#C9FDF5;
+    --bg-input:#F7FFFD;
+    --black:#000806;
+    --border-button:#C4CFD1 ;
+    --sm:14px;
+    --md:16px;
+    --lg:18px;
+
+}
+.body{
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--gray-blue);
+}

@@ -1,12 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TestIdare&Burnout</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <header class="hero">
+        <nav class="nav__hero">
+            <div class="container nav__container">
+                <div class="logo">
+                    <img src="img/Pruebas de IDERE yBurnout (1).png" alt="Test" class="logo__name">
+                </div>
+                <div class="links">
+                    <a href="#" class="link">Pacientes</a>
+                    <a href="#" class="link">Medicos</a>
+                    <a href="user.html" class="link">Entrar</a>
+                    <a href="#" class="link">Ubicacion</a>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="container hero__main">  
+            <div class="hero__textos">
+                <h1 class="title">Realiza <span class="title--active">tu prueba aqui.</span></h1> 
+               
+                <a href="userSignUp.html" class="cta">Test IDARE</a>
+                <a href="userSignUp.html" class="cta">Test Burnout</a>
+
+            </div>
+            <img src="img/saludFondo.jpg" class="mockup">
+        </section>
+    </header>
+
+    <main>
+        <section class="services">
+            <div class="container">
+                <h2 class="subtitle">Información<span class="point">.</span></h2>
+                <p class="copy__section">Puedes agendar una consulta con nuestros especialistas</p>
+
+                <article class="container-cards">
+                    <div class="card">
+                        <img src="img/ansiedad.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">¿Que es ?</p>
+                            <h3 class="card__title">IDARE<span class="point">.</span></h3>
+                            <p class="card__copy">Mide tu nivel de  rasgo,estado y ansiedad</p>
+                            <a href="userSignUp.html" class="card__button">Realizar test</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/burnout.jpeg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">¿Que es?</p>
+                            <h3 class="card__title">Burnout<span class="point">.</span></h3>
+                            <p class="card__copy">Progresivo agotamiento fisico y mental,una falta de motivacion por realizar ciertas tareas y en especial importantes.</p>
+                            <a href="userSignUp.html" class="card__button">Realizar test</a>
+                        </div>
+                    </div>
+                    
+                </article>
+            </div>
+        </section>
+       
+        <section class="testimony">
+            <div class="container">
+                <h2 class="subtitle">Clinicas con las que trabajamos<span class="point">.</span></h2>
+                <p class="copy__section">Cientos de pacientes dirigidos a clinicas psicologicas de primer nivel y de costo accesible</p>
+
+                <div class="testimony-container">
+                    <div class="testimony__card">
+                        <img src="img/clinica1.jpg" class="testimony__img">
+                        <div class="testimony__copy">
+                            <i class='bx bx-clinic testimony__logo'></i>
+                            <div class="testimony__info">
+                                <h3 class="testimony__name">IMSS</h3>
+                                <p class="testimony__position">Sector Publico</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimony__card">
+                        <img src="img/clinica2.jpg" class="testimony__img">
+                        <div class="testimony__copy">
+                            <i class='bx bx-clinic testimony__logo'></i>
+                            <div class="testimony__info">
+                                <h3 class="testimony__name">Medica Sur</h3>
+                                <p class="testimony__position">Sector Privado</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimony__card">
+                        <div class="testimony__text">
+                            <img src="img/clinica3.png" class="google__logo">
+                            <p class="testimony__history">"No importa lo que ocurra, o lo malo que parezca todo hoy, la vida continúa, y mañana será mejor."
+                                Maya Angelou </p>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="email container container--modifier">
+            <h2 class="subtitle subtitle--modifier">TU SALUD MENTAL ES PRIMERO<span class="point">.</span></h2>
+
+           
+
+            <div class="check">
+                <div class="check__item">
+                    <i class='bx bx-check' ></i>
+                    <div class="check__numbers">
+                        <p class="check__number">+1000</p>
+                        <p class="check__copy">Pacientes dirigidos con la app a clinicas</p>
+                    </div>
+                </div>
+                <div class="check__item">
+                    <i class='bx bx-check' ></i>
+                    <div class="check__numbers">
+                        <p class="check__number">+1000</p>
+                        <p class="check__copy">Clinicas con las que trabajamos </p>
+                    </div>
+                </div>
+                <div class="check__item">
+                    <i class='bx bx-check' ></i>
+                    <div class="check__numbers">
+                        <p class="check__number">+10000</p>
+                        <p class="check__copy">Test realizados</p>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__caption">
+            <section class="download">
+                <h3 class="title__footer">Descarga nuestra App</h3>
+                <div class="download__app">
+                    <div class="download__item">
+                        <i class='bx bxl-apple download__logo' ></i>
+                        <h4 class="download__title">App Store</h4>
+                    </div>
+                    <div class="download__item">
+                        <i class='bx bxl-play-store download__logo' ></i>
+                        <h4 class="download__title">Play Store</h4>
+                    </div>
+                </div>
+                <div class="footer__copy">
+                    <p class="copyright">TestIdare&Burnout &copy; 2020 Todos los derechos reservados</p>
     
+                    <a href="#" class="politica__privacidad politica__privacidad--margin">Politica de privacidad</a>
+                    <a href="#" class="politica__privacidad ">Terminos y condiciones</a>
+                </div>
+            </section>
+            <section class="get-email">
+                
+                <div class="socialmedia">
+                    <p class="socialmedia__legend">Siguenos en:</p>
+                    <i class='socialmedia__icon bx bxl-facebook-circle'></i>
+                    <i class='socialmedia__icon bx bxl-linkedin-square'></i>                                                                                                        
+                    <i class='socialmedia__icon bx bxl-twitter' ></i>   
+                    <i class='socialmedia__icon bx bxl-instagram' ></i>
+                    <i class='socialmedia__icon bx bxl-github' ></i>  
+                </div>
+            </section>
+        </div>
+
+        
+    </footer>
 </body>
 </html>
